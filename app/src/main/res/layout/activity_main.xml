@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="16">
+        <android.support.v4.view.ViewPager
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/viewPager"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/iv_dot_01"
+            android:layout_marginRight="3dp"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/iv_dot_01" />
+        <ImageView
+            android:id="@+id/iv_dot_02"
+            android:layout_marginRight="3dp"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/iv_dot_02"  />
+        <ImageView
+            android:id="@+id/iv_dot_03"
+            android:layout_marginRight="3dp"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/iv_dot_02"  />
+        <ImageView
+            android:id="@+id/iv_dot_04"
+            android:layout_marginRight="3dp"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/iv_dot_02"  />
+        <ImageView
+            android:id="@+id/iv_dot_05"
+            android:layout_marginRight="3dp"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/iv_dot_02"  />
+
+    </LinearLayout>
+
+
+</LinearLayout>

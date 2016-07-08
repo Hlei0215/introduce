@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">说明书</string>
+
+    <string name="a1">用户指南</string>
+    <string name="a2">语音助手</string>
+    <string name="a3">1.在联网状态下，可以通过“XX在吗”“XXXX”或“语音助手”唤醒。2.通过“语音助手”可进行拨打电话、导航、咨询天气、路况、音乐、电台、拍照等操作</string>
+    <string name="a4">记录仪拍照</string>
+    <string name="a5">可以通过语言命令“拍照”或双击记录仪界面上的红色按钮</string>
+    <string name="a6">导航/位置/天气/周边信息</string>
+    <string name="a7">说说当前位置、天气如何、导航到xxx（示例：导航到世界之窗）、我想去xxx（示例：我想去世界之窗）、附近有什么好吃的</string>
+    <string name="a8">打开应用</string>
+    <string name="a9">打开xx（示例：消息、音乐、记录仪）、关闭（示例：消息、音乐、记录仪）</string>
+    <string name="a10">播放音乐</string>
+    <string name="a11">来首xx的歌、上一首歌、下一首歌、关闭音乐</string>
+    <string name="a12">路况查询</string>
+    <string name="a13">请问附近的路况怎么样、播报一下路况信息、请问xxx堵车吗？</string>
+    <string name="a14">调整屏幕亮度/音量</string>
+    <string name="a15">屏幕最亮/最暗、亮度最大/最小、声音最大/最小</string>
+    <string name="a16">拨打电话</string>
+    <string name="a17">拨打xx的电话（示例：打电话给张三）、打电话给xxx（示例：打电话给10086）</string>
+
+    <string name="b1">FM调试发射</string>
+    <string name="b2">1.点击屏幕中的</string>
+    <string name="b3">“FM调试发射”图标，进入设置界面</string>
+    <string name="b4">将行车记录仪上的FM频段调至与您车载收音机上的FM频段一致（以0.1hz为单位的非固定频道供您选择），即可将行车记录仪的音频内容通过车内音响系统播放。</string>
+
+
+    <string name="c1">蓝牙电话</string>
+    <string name="c2">蓝牙电话</string>
+    <string name="c3">1.行车记录仪的蓝牙是默认开启状态，打电话只需打开手机蓝牙，搜索名称为“CAR-CDD-随机五位数字”的设备号连接并输入PIN码，连接成功后即可通过语音启动手机接到电话。</string>
+    <string name="c4">2.将通讯录同步至行车记录仪，点击按键左边</string>
+    <string name="c5">图标，再点击</string>
+    <string name="c6">即可</string>
+
+    <string name="d1">开关机</string>
+    <string name="d2">1.行车记录仪默认是点火启动，熄火关机。您也可以根据如下情况选择开关机模式：</string>
+
+    <string name="e1">设置</string>
+    <string name="e2">1.系统设置：</string>
+    <string name="e3">进入设置根据个人的需求将“显示”“提示音和通知”“截屏设置”“节电助手”“应用”“语言和输入法”“备份和重置”“日期和时间”等功能进行设置。</string>
+    <string name="e4">2.系统升级：</string>
+    <string name="e5">行车记录仪会不定期进行固件升级，连接WIFI后，根据提示下载最新固件。</string>
+    <string name="f1">APP下载：</string>
+</resources>

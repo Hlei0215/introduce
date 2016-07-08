@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp">
+
+    <TextView
+        android:id="@+id/c01"
+        android:text="@string/c1"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/c02"
+        android:text="@string/c2"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="@string/c3"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+  <!--  <ImageView
+        android:src="@mipmap/ic03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />  -->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/c03"
+            android:text="@string/c4"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+
+            android:layout_marginRight="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_toLeftOf="@+id/c04"
+            android:layout_toStartOf="@+id/c04"/>
+    <ImageView
+            android:id="@+id/c04"
+            android:src="@mipmap/ic04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/c05"
+            android:layout_toStartOf="@+id/c05" />
+        <TextView
+            android:id="@+id/c05"
+            android:text="@string/c5"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/c06"
+            android:layout_toStartOf="@+id/c06"/>
+
+      <ImageView
+            android:id="@+id/c06"
+            android:src="@mipmap/ic05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/c07"
+            android:layout_toStartOf="@+id/c07"
+            android:layout_marginRight="35dp"
+            android:layout_marginEnd="35dp" />
+        <TextView
+            android:id="@+id/c07"
+            android:text="@string/c6"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>
